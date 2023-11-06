@@ -1,46 +1,63 @@
-export const FRUITS = [
+export type TFRUITS = {
+  name: string,
+  radius: number,
+  score: number
+}
+
+export const FRUITS: TFRUITS[] = [
   {
-    name: "00_cheery",
-    raduis: 33 / 2,
+    name: "00_cherry",
+    radius: 33 / 2,
+    score: 1,
   },
   {
     name: "01_strawberry",
-    raduis: 48 / 2,
+    radius: 48 / 2,
+    score: 3,
   },
   {
     name: "02_grape",
-    raduis: 61 / 2,
+    radius: 61 / 2,
+    score: 6,
   },
   {
     name: "03_gyool",
-    raduis: 69 / 2,
+    radius: 69 / 2,
+    score: 10,
   },
   {
     name: "04_orange",
-    raduis: 89 / 2,
+    radius: 89 / 2,
+    score: 15,
   },
   {
     name: "05_apple",
-    raduis: 114 / 2,
+    radius: 114 / 2,
+    score: 21,
   },
   {
     name: "06_pear",
-    raduis: 129 / 2,
+    radius: 129 / 2,
+    score: 28,
   },
   {
     name: "07_peach",
-    raduis: 156 / 2,
+    radius: 156 / 2,
+    score: 36,
   },
   {
     name: "08_pineapple",
-    raduis: 177 / 2,
+    radius: 177 / 2,
+    score: 45,
   },
   {
     name: "09_melon",
-    raduis: 220 / 2,
+    radius: 220 / 2,
+    score: 55,
   },
   {
     name: "10_watermelon",
-    raduis: 259 / 2,
+    radius: 259 / 2,
+    score: 66,
   },
 ]
